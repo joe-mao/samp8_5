@@ -296,3 +296,22 @@ void MainWindow::on_actEdit_Delete_triggered()
         }
     }
 }
+
+void MainWindow::on_actItem_Rect_triggered()
+{
+    //添加一个矩形
+    QGraphicsRectItem * item = new QGraphicsRectItem(-50, -30, 100, 60);
+    item->setFlags(QGraphicsItem::ItemIsMovable |
+                       QGraphicsItem::ItemIsMovable |
+                        QGraphicsItem::ItemIsSelectable |
+                           QGraphicsItem::ItemIsFocusable);
+    item->setBrush(QBrush(Qt::yellow));//填充颜色
+    item->setZValue(++frontZ);//用于叠放顺序
+    item->setPos(-50 + (qrand() % 100), -50 + (qrand() % 100));//初始位置
+    item->setData(ItemId, ++seqNum);//自定义数据，ItemId键
+    item->setData(ItemDescription, "椭圆");//自定义数据，ItemDescription键
+
+    scene->addItem(item);
+    scene->clearSelection();
+    item->setSelected(true);
+}

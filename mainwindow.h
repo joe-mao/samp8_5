@@ -48,6 +48,8 @@ private slots:
 
     void on_actEdit_Delete_triggered();
 
+    void on_actItem_Rect_triggered();
+
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
