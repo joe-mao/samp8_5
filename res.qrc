@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>paint/actEdit_Back.PNG</file>
+        <file>paint/actEdit_Delete.PNG</file>
+        <file>paint/actEdit_Front.PNG</file>
+        <file>paint/actGroup.PNG</file>
+        <file>paint/actGroupBreak.PNG</file>
+        <file>paint/actItem_Circle.PNG</file>
+        <file>paint/actItem_Ellipse.PNG</file>
+        <file>paint/actItem_Line.PNG</file>
+        <file>paint/actItem_Pixmap.PNG</file>
+        <file>paint/actItem_Polygon.PNG</file>
+        <file>paint/actItem_Rect.PNG</file>
+        <file>paint/actItem_Text.PNG</file>
+        <file>paint/actItem_Triangle.PNG</file>
+        <file>paint/actQuit.PNG</file>
+        <file>paint/actRestore.PNG</file>
+        <file>paint/actRotateLeft.PNG</file>
+        <file>paint/actRotateRight.PNG</file>
+        <file>paint/actZoomIn.PNG</file>
+        <file>paint/actZoomOut.PNG</file>
+    </qresource>
+</RCC>
